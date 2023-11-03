@@ -16,8 +16,8 @@ func main() {
 	fmt.Println(names)
 
 	// slice the slice using syntax slice[low:high]
-	// [Jane Mary]
-	// [Jane Mary]
-	// [John]
-	// [John Jane Mary]
+	fmt.Println(names[1:3])	// [Jane Mary]
+	fmt.Println(names[1:])	// [Jane Mary]
+	fmt.Println(names[:1])	// [John]
+	fmt.Println(names[:])		// [John Jane Mary]
 }
